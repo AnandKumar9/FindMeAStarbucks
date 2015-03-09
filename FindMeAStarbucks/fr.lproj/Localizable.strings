@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  FindMeAStarbucks
+
+  Created by Anand Kumar 5 on 3/8/15.
+  Copyright (c) 2015 OutOnAWeekend. All rights reserved.
+*/
+
+"LOCATION INDEX" = "1 sur 18";
+"STARBUCKS NOT FOUND" = "Pas de Starbucks trouve à proximité .";
+"ENABLE CONNECTIVITY" = "Se il vous plaît vérifier si le dispositif a accès à Internet et relancer l'application .";
+"ENABLE DEVICE LOCATION SERVICES" = "Se il vous plaît activer les services de localisation dans les paramètres du périphérique .";
+"ENABLE APP LOCATION SERVICES" = "Se il vous plaît activer les services de localisation pour cette application dans les paramètres du périphérique .";

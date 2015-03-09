@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3F9E9661AABC0CE00EDF954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E9651AABC0CE00EDF954 /* main.m */; };
+		B3F9E9691AABC0CE00EDF954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E9681AABC0CE00EDF954 /* AppDelegate.m */; };
+		B3F9E96C1AABC0CE00EDF954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E96B1AABC0CE00EDF954 /* ViewController.m */; };
+		B3F9E96F1AABC0CE00EDF954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F9E96D1AABC0CE00EDF954 /* Main.storyboard */; };
+		B3F9E9711AABC0CE00EDF954 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F9E9701AABC0CE00EDF954 /* Images.xcassets */; };
+		B3F9E9741AABC0CE00EDF954 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F9E9721AABC0CE00EDF954 /* LaunchScreen.xib */; };
+		B3F9E9801AABC0CE00EDF954 /* FindMeAStarbucksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E97F1AABC0CE00EDF954 /* FindMeAStarbucksTests.m */; };
+		B3F9E98A1AABC5B200EDF954 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F9E9891AABC5B200EDF954 /* MapKit.framework */; };
+		B3F9E98D1AABCFD000EDF954 /* StarbucksLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E98C1AABCFD000EDF954 /* StarbucksLocation.m */; };
+		B3F9E9931AAD3F1200EDF954 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3F9E9951AAD3F1200EDF954 /* Localizable.strings */; };
+		B3F9E99C1AAD46AF00EDF954 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E99B1AAD46AF00EDF954 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3F9E97A1AABC0CE00EDF954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3F9E9581AABC0CE00EDF954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F9E95F1AABC0CE00EDF954;
+			remoteInfo = FindMeAStarbucks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3F9E9601AABC0CE00EDF954 /* FindMeAStarbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMeAStarbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F9E9641AABC0CE00EDF954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F9E9651AABC0CE00EDF954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F9E9671AABC0CE00EDF954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3F9E9681AABC0CE00EDF954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3F9E96A1AABC0CE00EDF954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3F9E96B1AABC0CE00EDF954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3F9E96E1AABC0CE00EDF954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3F9E9701AABC0CE00EDF954 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3F9E9731AABC0CE00EDF954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B3F9E9791AABC0CE00EDF954 /* FindMeAStarbucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMeAStarbucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F9E97E1AABC0CE00EDF954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F9E97F1AABC0CE00EDF954 /* FindMeAStarbucksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindMeAStarbucksTests.m; sourceTree = "<group>"; };
+		B3F9E9891AABC5B200EDF954 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B3F9E98B1AABCFD000EDF954 /* StarbucksLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarbucksLocation.h; sourceTree = "<group>"; };
+		B3F9E98C1AABCFD000EDF954 /* StarbucksLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarbucksLocation.m; sourceTree = "<group>"; };
+		B3F9E9901AAD3EBA00EDF954 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		B3F9E9941AAD3F1200EDF954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3F9E9961AAD3F2100EDF954 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3F9E9991AAD42C400EDF954 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B3F9E99A1AAD46AF00EDF954 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B3F9E99B1AAD46AF00EDF954 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3F9E95D1AABC0CE00EDF954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F9E98A1AABC5B200EDF954 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F9E9761AABC0CE00EDF954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3F9E9571AABC0CE00EDF954 = {
+			isa = PBXGroup;
+			children = (
+				B3F9E9621AABC0CE00EDF954 /* FindMeAStarbucks */,
+				B3F9E97C1AABC0CE00EDF954 /* FindMeAStarbucksTests */,
+				B3F9E9611AABC0CE00EDF954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F9E9611AABC0CE00EDF954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9E9601AABC0CE00EDF954 /* FindMeAStarbucks.app */,
+				B3F9E9791AABC0CE00EDF954 /* FindMeAStarbucksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F9E9621AABC0CE00EDF954 /* FindMeAStarbucks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9E9671AABC0CE00EDF954 /* AppDelegate.h */,
+				B3F9E9681AABC0CE00EDF954 /* AppDelegate.m */,
+				B3F9E96A1AABC0CE00EDF954 /* ViewController.h */,
+				B3F9E96B1AABC0CE00EDF954 /* ViewController.m */,
+				B3F9E98B1AABCFD000EDF954 /* StarbucksLocation.h */,
+				B3F9E98C1AABCFD000EDF954 /* StarbucksLocation.m */,
+				B3F9E96D1AABC0CE00EDF954 /* Main.storyboard */,
+				B3F9E9951AAD3F1200EDF954 /* Localizable.strings */,
+				B3F9E9991AAD42C400EDF954 /* Constants.h */,
+				B3F9E99A1AAD46AF00EDF954 /* Reachability.h */,
+				B3F9E99B1AAD46AF00EDF954 /* Reachability.m */,
+				B3F9E9701AABC0CE00EDF954 /* Images.xcassets */,
+				B3F9E9721AABC0CE00EDF954 /* LaunchScreen.xib */,
+				B3F9E9631AABC0CE00EDF954 /* Supporting Files */,
+			);
+			path = FindMeAStarbucks;
+			sourceTree = "<group>";
+		};
+		B3F9E9631AABC0CE00EDF954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9E9641AABC0CE00EDF954 /* Info.plist */,
+				B3F9E9651AABC0CE00EDF954 /* main.m */,
+				B3F9E9891AABC5B200EDF954 /* MapKit.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3F9E97C1AABC0CE00EDF954 /* FindMeAStarbucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9E97F1AABC0CE00EDF954 /* FindMeAStarbucksTests.m */,
+				B3F9E97D1AABC0CE00EDF954 /* Supporting Files */,
+			);
+			path = FindMeAStarbucksTests;
+			sourceTree = "<group>";
+		};
+		B3F9E97D1AABC0CE00EDF954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F9E97E1AABC0CE00EDF954 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3F9E95F1AABC0CE00EDF954 /* FindMeAStarbucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F9E9831AABC0CE00EDF954 /* Build configuration list for PBXNativeTarget "FindMeAStarbucks" */;
+			buildPhases = (
+				B3F9E95C1AABC0CE00EDF954 /* Sources */,
+				B3F9E95D1AABC0CE00EDF954 /* Frameworks */,
+				B3F9E95E1AABC0CE00EDF954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMeAStarbucks;
+			productName = FindMeAStarbucks;
+			productReference = B3F9E9601AABC0CE00EDF954 /* FindMeAStarbucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3F9E9781AABC0CE00EDF954 /* FindMeAStarbucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F9E9861AABC0CE00EDF954 /* Build configuration list for PBXNativeTarget "FindMeAStarbucksTests" */;
+			buildPhases = (
+				B3F9E9751AABC0CE00EDF954 /* Sources */,
+				B3F9E9761AABC0CE00EDF954 /* Frameworks */,
+				B3F9E9771AABC0CE00EDF954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F9E97B1AABC0CE00EDF954 /* PBXTargetDependency */,
+			);
+			name = FindMeAStarbucksTests;
+			productName = FindMeAStarbucksTests;
+			productReference = B3F9E9791AABC0CE00EDF954 /* FindMeAStarbucksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3F9E9581AABC0CE00EDF954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = OutOnAWeekend;
+				TargetAttributes = {
+					B3F9E95F1AABC0CE00EDF954 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B3F9E9781AABC0CE00EDF954 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B3F9E95F1AABC0CE00EDF954;
+					};
+				};
+			};
+			buildConfigurationList = B3F9E95B1AABC0CE00EDF954 /* Build configuration list for PBXProject "FindMeAStarbucks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = B3F9E9571AABC0CE00EDF954;
+			productRefGroup = B3F9E9611AABC0CE00EDF954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F9E95F1AABC0CE00EDF954 /* FindMeAStarbucks */,
+				B3F9E9781AABC0CE00EDF954 /* FindMeAStarbucksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3F9E95E1AABC0CE00EDF954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F9E96F1AABC0CE00EDF954 /* Main.storyboard in Resources */,
+				B3F9E9931AAD3F1200EDF954 /* Localizable.strings in Resources */,
+				B3F9E9741AABC0CE00EDF954 /* LaunchScreen.xib in Resources */,
+				B3F9E9711AABC0CE00EDF954 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F9E9771AABC0CE00EDF954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3F9E95C1AABC0CE00EDF954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F9E96C1AABC0CE00EDF954 /* ViewController.m in Sources */,
+				B3F9E98D1AABCFD000EDF954 /* StarbucksLocation.m in Sources */,
+				B3F9E9691AABC0CE00EDF954 /* AppDelegate.m in Sources */,
+				B3F9E9661AABC0CE00EDF954 /* main.m in Sources */,
+				B3F9E99C1AAD46AF00EDF954 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F9E9751AABC0CE00EDF954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F9E9801AABC0CE00EDF954 /* FindMeAStarbucksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3F9E97B1AABC0CE00EDF954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3F9E95F1AABC0CE00EDF954 /* FindMeAStarbucks */;
+			targetProxy = B3F9E97A1AABC0CE00EDF954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3F9E96D1AABC0CE00EDF954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F9E96E1AABC0CE00EDF954 /* Base */,
+				B3F9E9901AAD3EBA00EDF954 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3F9E9721AABC0CE00EDF954 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F9E9731AABC0CE00EDF954 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B3F9E9951AAD3F1200EDF954 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F9E9941AAD3F1200EDF954 /* en */,
+				B3F9E9961AAD3F2100EDF954 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3F9E9811AABC0CE00EDF954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3F9E9821AABC0CE00EDF954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F9E9841AABC0CE00EDF954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMeAStarbucks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3F9E9851AABC0CE00EDF954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindMeAStarbucks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3F9E9871AABC0CE00EDF954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMeAStarbucksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMeAStarbucks.app/FindMeAStarbucks";
+			};
+			name = Debug;
+		};
+		B3F9E9881AABC0CE00EDF954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMeAStarbucksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMeAStarbucks.app/FindMeAStarbucks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3F9E95B1AABC0CE00EDF954 /* Build configuration list for PBXProject "FindMeAStarbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F9E9811AABC0CE00EDF954 /* Debug */,
+				B3F9E9821AABC0CE00EDF954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F9E9831AABC0CE00EDF954 /* Build configuration list for PBXNativeTarget "FindMeAStarbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F9E9841AABC0CE00EDF954 /* Debug */,
+				B3F9E9851AABC0CE00EDF954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3F9E9861AABC0CE00EDF954 /* Build configuration list for PBXNativeTarget "FindMeAStarbucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F9E9871AABC0CE00EDF954 /* Debug */,
+				B3F9E9881AABC0CE00EDF954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3F9E9581AABC0CE00EDF954 /* Project object */;
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDL-8T-hRO" userLabel="Previous Button">
+                                <rect key="frame" x="179" y="524" width="25" height="30"/>
+                                <state key="normal" image="previous">
+                                    <color key="titleColor" red="0.058697488290000002" green="0.732421875" blue="0.64813862639999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="57x-7e-Ohe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5O-dX-R7t" userLabel="Index Button">
+                                <rect key="frame" x="225" y="522" width="30" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="indexButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="P4U-Mi-28z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVA-BN-qbG" userLabel="Next Button">
+                                <rect key="frame" x="274" y="524" width="25" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LVA-BN-qbG" secondAttribute="height" multiplier="5:6" id="Nu7-PQ-o4q"/>
+                                    <constraint firstAttribute="height" constant="30" id="okG-c7-iaa"/>
+                                </constraints>
+                                <state key="normal" image="next">
+                                    <color key="titleColor" red="0.058697488290000002" green="0.732421875" blue="0.64813862639999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hpO-W7-CNc"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tcL-te-MUq" userLabel="Map View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="LVA-BN-qbG" secondAttribute="centerX" multiplier="5:9" id="3NH-eE-5DZ"/>
+                            <constraint firstItem="LVA-BN-qbG" firstAttribute="centerY" secondItem="X5O-dX-R7t" secondAttribute="centerY" id="9Py-hF-4Fl"/>
+                            <constraint firstItem="tcL-te-MUq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="H3j-IK-j3b"/>
+                            <constraint firstAttribute="centerX" secondItem="X5O-dX-R7t" secondAttribute="centerX" multiplier="5:7.5" id="HDN-Qd-ccG"/>
+                            <constraint firstItem="LVA-BN-qbG" firstAttribute="width" secondItem="NDL-8T-hRO" secondAttribute="width" id="MCi-Ke-GFd"/>
+                            <constraint firstAttribute="centerX" secondItem="NDL-8T-hRO" secondAttribute="centerX" multiplier="5:6" id="Xmu-zn-uVF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tcL-te-MUq" secondAttribute="trailing" constant="-16" id="esz-th-Saj"/>
+                            <constraint firstItem="LVA-BN-qbG" firstAttribute="height" secondItem="NDL-8T-hRO" secondAttribute="height" id="iAG-3v-If1"/>
+                            <constraint firstItem="tcL-te-MUq" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="jYc-Ov-qsw"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tcL-te-MUq" secondAttribute="bottom" id="qA2-qZ-6BW"/>
+                            <constraint firstItem="LVA-BN-qbG" firstAttribute="centerY" secondItem="NDL-8T-hRO" secondAttribute="centerY" id="vkM-px-pyE"/>
+                            <constraint firstAttribute="centerY" secondItem="LVA-BN-qbG" secondAttribute="centerY" multiplier="10:19" id="z9d-q5-BeT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indexButton" destination="X5O-dX-R7t" id="xl9-1m-Pay"/>
+                        <outlet property="mapView" destination="tcL-te-MUq" id="E9I-Ao-L98"/>
+                        <outlet property="nextButton" destination="LVA-BN-qbG" id="U7v-fa-871"/>
+                        <outlet property="previousButton" destination="NDL-8T-hRO" id="sI4-rk-MXm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="206" y="251"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="next" width="128" height="128"/>
+        <image name="previous" width="128" height="128"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
